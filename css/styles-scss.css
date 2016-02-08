@@ -87,8 +87,19 @@ main {
   margin-bottom: 1em;
 }
 
+.ju-white {
+  padding: 2.5em 3em 2.5em 3em;
+  background-color: #fff;
+  margin-bottom: 1em;
+  border: 1px #686868 solid;
+}
+
 .color-sections {
   padding-left: 0px;
+}
+.color-sections p {
+  padding-left: 15px;
+  line-height: 8px;
 }
 
 /*END CONTAINER STYLES*/
