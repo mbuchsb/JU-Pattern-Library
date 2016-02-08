@@ -1,0 +1,24 @@
+html {
+	background-color: #efefef;
+}
+
+body {
+	background-color: white;
+}
+
+header {
+	background-color: #e2e1e0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 68em;
+}
+
