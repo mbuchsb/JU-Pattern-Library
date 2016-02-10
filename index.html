@@ -15,6 +15,7 @@
     <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJZ8T9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -62,6 +63,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         document.write(unescape("%3Cscript src='../js/jquery-1.11.2.min.js' type='text/javascript'%3E%3C/script%3E"));
     }
     </script>
+
+<!--Script for SmoothSCroll-->
+   
     <script type="text/javascript" src="http://use.typekit.net/hjl2zag.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript" src="menu.js"></script>
@@ -303,13 +307,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- InstanceEndEditable -->
     <script src="//use.typekit.net/btp6zpf.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
-    <!-- InstanceBeginEditable name="Custom JS File" -->
-    
-	
-    <!-- InstanceEndEditable -->
-    <!-- InstanceBeginEditable name="Remarketing" -->
-    
-    <!-- InstanceEndEditable -->
+
+    <!--Smoothscroll-->
+     <script>
+                $(function() {
+          $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
 
 </body>
 <!-- InstanceEnd --></html>

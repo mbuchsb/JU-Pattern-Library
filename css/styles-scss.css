@@ -12,6 +12,7 @@ header {
   background-color: #e2e1e0;
   padding-top: 1em;
   padding-bottom: 0em;
+  margin-top: -1.4em;
 }
 header img {
   margin-left: 0em;
@@ -63,7 +64,23 @@ hr {
 }
 .subnav li a {
   color: #747373;
+  display: block;
   padding: 0.5em 1.5em 0em 0em;
+}
+.subnav li a:focus {
+  color: #747373;
+  border-right: 4px solid #ab9767;
+  text-decoration: none;
+}
+.subnav li a:active {
+  color: #747373;
+  border-right: 4px solid #ab9767;
+  text-decoration: none;
+}
+.subnav li a:hover {
+  color: #747373;
+  border-right: 4px solid #ab9767;
+  text-decoration: none;
 }
 
 .fixed {
