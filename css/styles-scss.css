@@ -18,122 +18,486 @@
   font-size: inherit;
 }
 
-.button-sharp-gold {
+.btn-sharp-gld {
   float: left;
   text-align: center;
 }
-.button-sharp-gold a {
+.btn-sharp-gld a {
   float: left;
   border: 3px solid #ab9767;
   padding: 0.5em 2em 0.5em 2em;
   color: #ab9767;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-gold a:hover {
+.btn-sharp-gld a:hover {
   background-color: #ab9767;
   color: #fff;
   text-decoration: none;
 }
 
-.button-sharp-green {
+.btn-sharp-grn {
   float: left;
   text-align: center;
 }
-.button-sharp-green a {
+.btn-sharp-grn a {
   float: left;
   border: 3px solid #004d40;
   padding: 0.5em 2em 0.5em 2em;
   color: #004d40;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-green a:hover {
+.btn-sharp-grn a:hover {
   background-color: #004d40;
   color: #fff;
   text-decoration: none;
 }
 
-.button-sharp-red {
+.btn-sharp-red {
   float: left;
   text-align: center;
 }
-.button-sharp-red a {
+.btn-sharp-red a {
   float: left;
   border: 3px solid #7a232c;
   padding: 0.5em 2em 0.5em 2em;
   color: #7a232c;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-red a:hover {
+.btn-sharp-red a:hover {
   background-color: #7a232c;
   color: #fff;
   text-decoration: none;
 }
 
-.button-sharp-gold-fill {
+.btn-sharp-blk {
   float: left;
   text-align: center;
 }
-.button-sharp-gold-fill a {
+.btn-sharp-blk a {
+  float: left;
+  border: 3px solid #000000;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #000000;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-blk a:hover {
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-sharp-blu {
+  float: left;
+  text-align: center;
+}
+.btn-sharp-blu a {
+  float: left;
+  border: 3px solid #4f86a0;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #4f86a0;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-blu a:hover {
+  background-color: #4f86a0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-sharp-gry {
+  float: left;
+  text-align: center;
+}
+.btn-sharp-gry a {
+  float: left;
+  border: 3px solid #b2b3b2;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #b2b3b2;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-gry a:hover {
+  background-color: #b2b3b2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-sharp-gld-fill {
+  float: left;
+  text-align: center;
+}
+.btn-sharp-gld-fill a {
   float: left;
   border: 3px solid #ab9767;
   padding: 0.5em 2em 0.5em 2em;
   background-color: #ab9767;
   color: #fff;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-gold-fill a:hover {
+.btn-sharp-gld-fill a:hover {
   background-color: transparent;
   color: #ab9767;
   text-decoration: none;
 }
 
-.button-sharp-green-fill {
+.btn-sharp-grn-fill {
   float: left;
   text-align: center;
 }
-.button-sharp-green-fill a {
+.btn-sharp-grn-fill a {
   float: left;
   border: 3px solid #004d40;
   padding: 0.5em 2em 0.5em 2em;
   background-color: #004d40;
   color: #fff;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-green-fill a:hover {
+.btn-sharp-grn-fill a:hover {
   background-color: transparent;
   color: #004d40;
   text-decoration: none;
 }
 
-.button-sharp-red-fill {
+.btn-sharp-red-fill {
   float: left;
   text-align: center;
 }
-.button-sharp-red-fill a {
+.btn-sharp-red-fill a {
   float: left;
   border: 3px solid #7a232c;
   padding: 0.5em 2em 0.5em 2em;
   background-color: #7a232c;
   color: #fff;
   font-size: 1.25em;
-  margin-top: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
 }
-.button-sharp-red-fill a:hover {
+.btn-sharp-red-fill a:hover {
   background-color: transparent;
   color: #7a232c;
   text-decoration: none;
 }
 
-@media screen and (min-width: 48em) {
-  .button-sharp-gold {
-    text-align: center;
-  }
+.btn-sharp-blk-fill {
+  float: left;
+  text-align: center;
 }
+.btn-sharp-blk-fill a {
+  float: left;
+  border: 3px solid #000000;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-blk-fill a:hover {
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-sharp-blu-fill {
+  float: left;
+  text-align: center;
+}
+.btn-sharp-blu-fill a {
+  float: left;
+  border: 3px solid #4f86a0;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #4f86a0;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-blu-fill a:hover {
+  background-color: transparent;
+  color: #4f86a0;
+  text-decoration: none;
+}
+
+.btn-sharp-gry-fill {
+  float: left;
+  text-align: center;
+}
+.btn-sharp-gry-fill a {
+  float: left;
+  border: 3px solid #b2b3b2;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #b2b3b2;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  width: 100%;
+}
+.btn-sharp-gry-fill a:hover {
+  background-color: transparent;
+  color: #b2b3b2;
+  text-decoration: none;
+}
+
+.btn-soft-gld {
+  float: left;
+  text-align: center;
+}
+.btn-soft-gld a {
+  float: left;
+  border: 3px solid #ab9767;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #ab9767;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-gld a:hover {
+  background-color: #ab9767;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-grn {
+  float: left;
+  text-align: center;
+}
+.btn-soft-grn a {
+  float: left;
+  border: 3px solid #004d40;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #004d40;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-grn a:hover {
+  background-color: #004d40;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-red {
+  float: left;
+  text-align: center;
+}
+.btn-soft-red a {
+  float: left;
+  border: 3px solid #7a232c;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #7a232c;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-red a:hover {
+  background-color: #7a232c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-blk {
+  float: left;
+  text-align: center;
+}
+.btn-soft-blk a {
+  float: left;
+  border: 3px solid #000000;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #000000;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-blk a:hover {
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-blu {
+  float: left;
+  text-align: center;
+}
+.btn-soft-blu a {
+  float: left;
+  border: 3px solid #4f86a0;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #4f86a0;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-blu a:hover {
+  background-color: #4f86a0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-gry {
+  float: left;
+  text-align: center;
+}
+.btn-soft-gry a {
+  float: left;
+  border: 3px solid #b2b3b2;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #b2b3b2;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-gry a:hover {
+  background-color: #b2b3b2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-soft-gld-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-gld-fill a {
+  float: left;
+  border: 3px solid #ab9767;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #fff;
+  background-color: #ab9767;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-gld-fill a:hover {
+  background-color: transparent;
+  color: #ab9767;
+  text-decoration: none;
+}
+
+.btn-soft-grn-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-grn-fill a {
+  float: left;
+  border: 3px solid #004d40;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #004d40;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-grn-fill a:hover {
+  background-color: transparent;
+  color: #004d40;
+  text-decoration: none;
+}
+
+.btn-soft-red-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-red-fill a {
+  float: left;
+  border: 3px solid #7a232c;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #7a232c;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-red-fill a:hover {
+  background-color: transparent;
+  color: #7a232c;
+  text-decoration: none;
+}
+
+.btn-soft-blk-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-blk-fill a {
+  float: left;
+  border: 3px solid #000000;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #fff;
+  background-color: #000000;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-blk-fill a:hover {
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-soft-blu-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-blu-fill a {
+  float: left;
+  border: 3px solid #4f86a0;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #4f86a0;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-blu-fill a:hover {
+  background-color: transparent;
+  color: #4f86a0;
+  text-decoration: none;
+}
+
+.btn-soft-gry-fill {
+  float: left;
+  text-align: center;
+}
+.btn-soft-gry-fill a {
+  float: left;
+  border: 3px solid #b2b3b2;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #b2b3b2;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-soft-gry-fill a:hover {
+  background-color: transparent;
+  color: #b2b3b2;
+  text-decoration: none;
+}
+
 /* CSS Document */
 html {
   background-color: #efefef;
@@ -340,6 +704,7 @@ aside {
 .button-section {
   padding-top: 0em;
   padding-bottom: 2em;
+  width: 100%;
 }
 
 /*END CONTAINER STYLES*/
@@ -426,6 +791,10 @@ aside {
 /*END GRID PATTERNS*/
 .vanish {
   display: block;
+}
+
+.no-pad {
+  padding-left: 0px;
 }
 
 @media screen and (min-width: 48em) {

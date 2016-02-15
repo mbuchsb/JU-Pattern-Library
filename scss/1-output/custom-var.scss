@@ -225,6 +225,7 @@ aside {
 .button-section {
 	padding-top: 0em;
 	padding-bottom: 2em;
+	width: 100%;
 }
 
 
@@ -319,6 +320,10 @@ aside {
 
 .vanish {
 	display: block;
+}
+
+.no-pad {
+	padding-left: 0px;
 }
 
 @media screen and (min-width: 48em) {

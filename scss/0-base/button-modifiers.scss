@@ -3,7 +3,7 @@
 
 // Sharp-edge Buttons Hollow
 //===============================
-.button-sharp-gold {
+.btn-sharp-gld {
 	float:left;
 	text-align:center;
 	a{
@@ -12,7 +12,8 @@
 		padding: 0.5em 2em 0.5em 2em;
 		color: $ju-gold;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
 	}
 	a:hover {
 		background-color: $ju-gold;
@@ -21,7 +22,7 @@
 	}
 }
 
-.button-sharp-green {
+.btn-sharp-grn {
 	float:left;
 	text-align:center;
 	a{
@@ -30,7 +31,8 @@
 		padding: 0.5em 2em 0.5em 2em;
 		color: $ju-green;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
 	}
 	a:hover {
 		background-color: $ju-green;
@@ -39,7 +41,7 @@
 	}
 }
 
-.button-sharp-red {
+.btn-sharp-red {
 	float:left;
 	text-align:center;
 	a{
@@ -48,10 +50,68 @@
 		padding: 0.5em 2em 0.5em 2em;
 		color: $ju-red;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
 	}
 	a:hover {
 		background-color: $ju-red;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-sharp-blk {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-black;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-black;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
+	}
+	a:hover {
+		background-color: $ju-black;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-sharp-blu {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-blue;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-blue;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
+	}
+	a:hover {
+		background-color: $ju-blue;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-sharp-gry {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-grey;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-grey;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width:100%;
+	}
+	a:hover {
+		background-color: $ju-grey;
 		color: $ju-white;
 		text-decoration: none;
 	}
@@ -59,7 +119,7 @@
 
 //Sharp-edged Buttons Filled
 //==================================
-.button-sharp-gold-fill {
+.btn-sharp-gld-fill {
 	float:left;
 	text-align:center;
 	a{
@@ -69,7 +129,8 @@
 		background-color: $ju-gold;
 		color: $ju-white;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
 	}
 	a:hover {
 		background-color: transparent;
@@ -78,7 +139,7 @@
 	}
 }
 
-.button-sharp-green-fill {
+.btn-sharp-grn-fill {
 	float:left;
 	text-align:center;
 	a{
@@ -88,7 +149,8 @@
 		background-color: $ju-green;
 		color: $ju-white;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
 	}
 	a:hover {
 		background-color: transparent;
@@ -97,7 +159,7 @@
 	}
 }
 
-.button-sharp-red-fill {
+.btn-sharp-red-fill {
 	float:left;
 	text-align:center;
 	a{
@@ -107,7 +169,8 @@
 		background-color: $ju-red;
 		color: $ju-white;
 		font-size: 1.25em;
-		margin-top: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
 	}
 	a:hover {
 		background-color: transparent;
@@ -116,8 +179,316 @@
 	}
 }
 
-@media screen and (min-width: 48em) {
-	.button-sharp-gold {
-		text-align:center;
+.btn-sharp-blk-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-black;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-black;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-black;
+		text-decoration: none;
 	}
 }
+
+.btn-sharp-blu-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-blue;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-blue;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-blue;
+		text-decoration: none;
+	}
+}
+
+.btn-sharp-gry-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-grey;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-grey;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-grey;
+		text-decoration: none;
+	}
+}
+
+
+// Soft-edge Buttons Hollow
+//===============================
+.btn-soft-gld {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-gold;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-gold;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-gold;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-grn {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-green;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-green;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-green;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-red {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-red;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-red;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-red;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-blk {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-black;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-black;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-black;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-blu {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-blue;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-blue;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-blue;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-gry {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-grey;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-grey;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: $ju-grey;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+//Soft-edged Buttons Filled
+//==================================
+.btn-soft-gld-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-gold;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-white;
+		background-color: $ju-gold;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-gold;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-grn-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-green;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-green;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-green;
+		text-decoration: none;
+	}
+}
+
+
+.btn-soft-red-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-red;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-red;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-red;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-blk-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-black;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-white;
+		background-color: $ju-black;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-black;
+		text-decoration: none;
+	}
+}
+
+.btn-soft-blu-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-blue;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-blue;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-blue;
+		text-decoration: none;
+	}
+}
+
+
+.btn-soft-gry-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-grey;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-grey;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 0.25em;
+		border-radius: 10px;
+		width: 100%;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-grey;
+		text-decoration: none;
+	}
+}
+
