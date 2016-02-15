@@ -1,3 +1,139 @@
+.fa-6 {
+  font-size: 20em;
+}
+
+.fa-5 {
+  font-size: 12em;
+}
+
+.fa-3 {
+  font-size: 4em;
+}
+
+.fa-2 {
+  font-size: 2em;
+}
+
+.fa-1 {
+  font-size: inherit;
+}
+
+.button-sharp-gold {
+  float: left;
+  text-align: center;
+}
+.button-sharp-gold a {
+  float: left;
+  border: 3px solid #ab9767;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #ab9767;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-gold a:hover {
+  background-color: #ab9767;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-sharp-green {
+  float: left;
+  text-align: center;
+}
+.button-sharp-green a {
+  float: left;
+  border: 3px solid #004d40;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #004d40;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-green a:hover {
+  background-color: #004d40;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-sharp-red {
+  float: left;
+  text-align: center;
+}
+.button-sharp-red a {
+  float: left;
+  border: 3px solid #7a232c;
+  padding: 0.5em 2em 0.5em 2em;
+  color: #7a232c;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-red a:hover {
+  background-color: #7a232c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-sharp-gold-fill {
+  float: left;
+  text-align: center;
+}
+.button-sharp-gold-fill a {
+  float: left;
+  border: 3px solid #ab9767;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #ab9767;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-gold-fill a:hover {
+  background-color: transparent;
+  color: #ab9767;
+  text-decoration: none;
+}
+
+.button-sharp-green-fill {
+  float: left;
+  text-align: center;
+}
+.button-sharp-green-fill a {
+  float: left;
+  border: 3px solid #004d40;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #004d40;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-green-fill a:hover {
+  background-color: transparent;
+  color: #004d40;
+  text-decoration: none;
+}
+
+.button-sharp-red-fill {
+  float: left;
+  text-align: center;
+}
+.button-sharp-red-fill a {
+  float: left;
+  border: 3px solid #7a232c;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #7a232c;
+  color: #fff;
+  font-size: 1.25em;
+  margin-top: 1.25em;
+}
+.button-sharp-red-fill a:hover {
+  background-color: transparent;
+  color: #7a232c;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 48em) {
+  .button-sharp-gold {
+    text-align: center;
+  }
+}
 /* CSS Document */
 html {
   background-color: #efefef;
@@ -79,8 +215,7 @@ hr {
 }
 .subnav li a:hover {
   color: #747373;
-  border-right: 4px solid #ab9767;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .fixed {
@@ -159,12 +294,55 @@ main {
   padding: 4em 0em 4em 0em;
 }
 
+aside {
+  float: left;
+}
+
 .wrapper {
   float: left;
   width: 100%;
 }
 
-/*End Container styles*/
+.alpha {
+  margin-top: 1.5em;
+}
+
+.color-sections {
+  padding-left: 0px;
+  margin-bottom: 1em;
+}
+.color-sections p {
+  padding-left: 15px;
+  line-height: 5px;
+}
+
+.type-section {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.icon-section {
+  padding-top: 0em;
+  padding-bottom: 2em;
+}
+
+.grid-section {
+  padding-top: 0em;
+  padding-bottom: 2em;
+}
+
+.seal-section {
+  padding-top: 0em;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+.button-section {
+  padding-top: 0em;
+  padding-bottom: 2em;
+}
+
+/*END CONTAINER STYLES*/
 /* COLOR PATTERNS */
 .ju-green {
   padding: 2.5em 3em 2.5em 3em;
@@ -246,30 +424,6 @@ main {
 }
 
 /*END GRID PATTERNS*/
-.alpha {
-  margin-top: 1.5em;
-}
-
-.color-sections {
-  padding-left: 0px;
-  margin-bottom: 1em;
-}
-.color-sections p {
-  padding-left: 15px;
-  line-height: 5px;
-}
-
-.type-section {
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-.grid-section {
-  padding-top: 0em;
-  padding-bottom: 2em;
-}
-
-/*END CONTAINER STYLES*/
 .vanish {
   display: block;
 }
@@ -291,5 +445,11 @@ main {
 
   .fixed {
     position: fixed;
+  }
+
+  .seal-section {
+    padding-top: 0em;
+    padding-bottom: 2em;
+    width: 50%;
   }
 }

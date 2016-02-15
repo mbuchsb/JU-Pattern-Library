@@ -91,8 +91,7 @@ hr {
 
 		a:hover 	{
 		color: #747373;
-		border-right: 4px solid $ju-gold;
-		text-decoration: none;
+		text-decoration: underline;
 		}
 	}
 }
@@ -176,12 +175,60 @@ main {
 	padding: 4em 0em 4em 0em;
 }
 
+aside {
+	float:left;
+}
+
 .wrapper {
 	float: left;
 	width: 100%;
 }
 
-/*End Container styles*/
+.alpha {
+	margin-top: 1.5em;
+}
+
+
+
+.color-sections {
+	padding-left: 0px;
+	margin-bottom: 1em;
+
+	p {
+		padding-left: 15px;
+		line-height: 5px;
+	}
+}
+
+
+.type-section {
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.icon-section {
+	padding-top: 0em;
+	padding-bottom: 2em;
+}
+
+.grid-section {
+	padding-top: 0em;
+	padding-bottom: 2em;
+}
+
+.seal-section {
+	padding-top: 0em;
+	padding-bottom: 2em;
+	width:100%;
+}
+
+.button-section {
+	padding-top: 0em;
+	padding-bottom: 2em;
+}
+
+
+/*END CONTAINER STYLES*/
 
 
 /* COLOR PATTERNS */
@@ -270,36 +317,6 @@ main {
 
 /*END GRID PATTERNS*/
 
-.alpha {
-	margin-top: 1.5em;
-}
-
-
-
-.color-sections {
-	padding-left: 0px;
-	margin-bottom: 1em;
-
-	p {
-		padding-left: 15px;
-		line-height: 5px;
-	}
-}
-
-
-.type-section {
-	padding-top: 1em;
-	padding-bottom: 2em;
-}
-
-.grid-section {
-	padding-top: 0em;
-	padding-bottom: 2em;
-}
-
-
-/*END CONTAINER STYLES*/
-
 .vanish {
 	display: block;
 }
@@ -323,5 +340,12 @@ main {
 	.fixed {
 		position: fixed;
 	}
+
+	.seal-section {
+	padding-top: 0em;
+	padding-bottom: 2em;
+	width:50%;
+}
+
 
 }

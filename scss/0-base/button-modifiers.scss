@@ -1,0 +1,123 @@
+// JU BUTTON PALLETE
+//==================================================
+
+// Sharp-edge Buttons Hollow
+//===============================
+.button-sharp-gold {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-gold;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-gold;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: $ju-gold;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.button-sharp-green {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-green;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-green;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: $ju-green;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+.button-sharp-red {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-red;
+		padding: 0.5em 2em 0.5em 2em;
+		color: $ju-red;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: $ju-red;
+		color: $ju-white;
+		text-decoration: none;
+	}
+}
+
+//Sharp-edged Buttons Filled
+//==================================
+.button-sharp-gold-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-gold;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-gold;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-gold;
+		text-decoration: none;
+	}
+}
+
+.button-sharp-green-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-green;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-green;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-green;
+		text-decoration: none;
+	}
+}
+
+.button-sharp-red-fill {
+	float:left;
+	text-align:center;
+	a{
+		float: left; 
+		border: 3px solid $ju-red;
+		padding: 0.5em 2em 0.5em 2em;
+		background-color: $ju-red;
+		color: $ju-white;
+		font-size: 1.25em;
+		margin-top: 1.25em;
+	}
+	a:hover {
+		background-color: transparent;
+		color: $ju-red;
+		text-decoration: none;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.button-sharp-gold {
+		text-align:center;
+	}
+}
