@@ -60,7 +60,7 @@ hr {
 	ul{
 		border-right: 2px #BFBFBF solid;
 		margin-top: 0em;
-		padding-left: 2em;
+		padding-left: 0em;
 	
 	}
 
@@ -77,11 +77,6 @@ hr {
 		padding: 0.5em 1.5em 0em 0em;
 		}
 
-		a:focus 	{
-		color: #747373;
-		border-right: 4px solid $ju-gold;
-		text-decoration: none;
-		}
 
 		a:active 	{
 		color: #747373;
@@ -94,6 +89,10 @@ hr {
 		text-decoration: underline;
 		}
 	}
+}
+
+.active {
+	border-right: 3px solid $ju-gold;
 }
 
 .fixed {
@@ -123,43 +122,24 @@ h3 {
 }
 
 .h1-mimic {
-    color: #ab9767;
-    font-size: 2.18em;
-    font-weight: normal;
-    text-transform: uppercase;
-	border-bottom: 1px solid $ju-grey;
-	padding-bottom: 0.5em;
-	padding-left: 0px;
-}
+    @include h1-style;
+    }
 
 .h2-mimic {
-	color: $ju-dark-grey;
-    font-size: 164%;
-    font-weight: normal;
-    text-transform: capitalize;
-    border-bottom: 1px solid $ju-grey;
-    padding-bottom: 0.5em;
-    padding-left: 0px;
-    font-family: franklin-gothic-urw, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	@include h2-style;
 }
 
 .h3-mimic {
-    color: $ju-dark-grey;
-    font-size: 1.45em;
-    font-weight: normal;
-    text-transform: capitalize;
-	border-bottom: 1px solid $ju-grey;
-    padding-bottom: 0.5em;
-    padding-left: 0px;
+    @include h3-style;
 }
 
 .h4-mimic {
-    color: $ju-dark-grey;
-    font-size: 118%;
-    font-weight: normal;
-    padding-bottom: 0.5em;
-    padding-left: 0px;
-   }
+	@include h4-style;
+}
+
+.p-mimic {
+	@include p-style;
+}
 
 /* END TYPE STYLES */
 
@@ -168,7 +148,7 @@ h3 {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 68em;
+	max-width: 90em;
 }
 
 main {
@@ -306,13 +286,13 @@ aside {
 /*GRID PATTERNS*/
 
 .grid-block {
-	border: 10px solid $ju-gold;
+	border: 6px solid $ju-gold;
 	background-color: $ju-green;
 	color: $ju-white;
 	font-size: 14px;
 	text-align: center;
 	font-weight: bold;
-	padding: 1em 2em 1em 2em;
+	padding: 1em 0em 1em 0em;
 }
 
 
@@ -326,10 +306,23 @@ aside {
 	padding-left: 0px;
 }
 
+/*DESKTOP STYLES*/
+
 @media screen and (min-width: 48em) {
 	.vanish {
 	display: none;
 	}
+
+	.grid-block {
+	border: 6px solid $ju-gold;
+	background-color: $ju-green;
+	color: $ju-white;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em 2em 1em 2em;
+}
+
 
 
 	header {
@@ -352,5 +345,56 @@ aside {
 	width:50%;
 }
 
+	.subnav-menu-icon {
+		display: none;
+	}
 
+}
+
+/*END DESKTOP STYLES*/
+
+/* MOBILE NAV */
+
+@media screen and (max-width: 48em) {
+	#menu-icon {
+		display: block;
+		width: 40px;
+		height: 40px;
+	}
+
+	.nav ul li {
+		display: inline-block;
+	}
+
+	.subnav-menu-icon {
+		  position: relative;
+		  padding-left: 1.25em;
+		}
+
+	.subnav-menu-icon:before {
+	  content: "";
+	  position: absolute;
+	  left: 0;
+	  top: 0.25em;
+	  width: 1em;
+	  height: 0.15em;
+	  background: black;
+	  box-shadow: 
+	    0 0.25em 0 0 black,
+	    0 0.5em 0 0 black;
+	}
+
+	.subnav {
+
+		a {
+			width: 100%;
+			border-bottom: 2px solid $ju-grey;
+			padding-bottom: 1.25em;
+			text-align: center;
+		}
+
+		ul {
+			border-right: 0px;
+		}
+	}
 }

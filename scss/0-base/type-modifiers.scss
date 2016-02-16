@@ -1,8 +1,66 @@
 // JU TYPE PALLETE
 //==================================================
 
-// Font-sizes
-$base-font-size: 1.25em !default;
+// Base Font Styles
+@mixin p-style {
+	font-family: "franklin-gothic-urw", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.15em;
+    padding-left: 0px;
+    color: $ju-black;
+    line-height: 1.5;
+}
+
+@mixin blockquote-style {
+	font-style:italic;
+}
+
+p {@include p-style;}
+blockquote {@include blockquote-style;}
+
+//Header Styles
+@mixin h1-style {
+	color: #ab9767;
+    font-size: 2.18em;
+    font-weight: normal;
+    text-transform: uppercase;
+	padding-bottom: 0.5em;
+	padding-left: 0px;
+}
+
+@mixin h2-style {
+	color: $ju-dark-grey;
+    font-size: 164%;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+    font-family: franklin-gothic-urw, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin h3-style {
+	color: $ju-dark-grey;
+    font-size: 164%;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+    font-family: franklin-gothic-urw, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin h4-style {
+	color: $ju-dark-grey;
+    font-size: 118%;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+}
+
+h1 {@include h1-style;}
+h2 {@include h2-style;}
+h3 {@include h3-style;}
+h4 {@include h4-style;}
+
 
 //Icon-sizes
 .fa-6 {font-size: 20em;}
